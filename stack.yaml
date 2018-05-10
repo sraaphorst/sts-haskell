@@ -1,0 +1,6 @@
+flags: {}
+allow-newer: true
+packages:
+- .
+extra-deps: []
+resolver: lts-8.9

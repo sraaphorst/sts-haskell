@@ -1,0 +1,27 @@
+name: STS
+version: 1.0
+cabal-version: 1.22
+build-type: Simple
+license: MIT
+copyright: 2018
+maintainer: Sebastian Raaphorst
+stability: experimental
+synopsis: Hill-climbing algorithm for Steiner Triple Systems
+description:
+    This is a Haskell implementation of the general hill-climbing algorithm to find Steiner triple systems, as detailed in Stinson and Kreher.
+category: Combinatorics
+author: Sebastian Raaphorst
+x-ghc-framework-version: 8.0.2-8.9-3
+x-last-ide-version: HfM1.5.1
+Executable STS
+  buildable: True
+  build-depends:
+      base -any,
+      HUnit -any,
+      random -any,
+      mtl -any
+  default-language: Haskell2010
+  other-modules:
+      STS
+      STSHillclimbing
+      STSTest
