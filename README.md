@@ -30,11 +30,11 @@ The `STS(7)` is the most famous example, as it is not only a Steiner triple syst
 
 * `245`
 
-![fano](docs/fano.png)
+![fano](doc/fano.png)
 
 A further interesting fact about the Fano plane is that it is *self-dual,* i.e. if we "swap" the edges and the points of the design, we get a design with the same structure (i.e. one that is *isomorphic* to the original). In the following diagram, the blocks of the original design become the points of the dual design, and the points of the original design become the blocks of the dual design: the point 0 in the original design maps to the block `{012, 034, 056}` in the dual design, i.e. it consists of all the blocks of the original design (now points in the dual design) that contain 0.
 
-![fano](docs/fano_dual.png)
+![fano](doc/fano_dual.png)
 
 One last interesting fact: any map `f:V -> V` over a Steiner triple system is called an *automorphism* if:
 
