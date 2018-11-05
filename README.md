@@ -6,7 +6,7 @@
 
 A Steiner Triple System over `n` points, called an `STS(n) = (V,E)`, is a *combinatorial design* with the following properties:
 
-1. `V = {0, ..., n-1}` is the base set of thhe design, called the *points* (or less frequently, *vertices*) of the design.
+1. `V = {0, ..., n-1}` is the base set of the design, called the *points* (or less frequently, *vertices*) of the design.
 
 2. `E` is a collection of triples (i.e. subsets if size 3) of `V`, called the *blocks*, *lines*, *edges*, or *triples* of the design. When it is unambiguous to do so, we write subsets in simplified notation, e.g. `{0, 2, 5} = 025`.
 
@@ -14,7 +14,7 @@ A Steiner Triple System over `n` points, called an `STS(n) = (V,E)`, is a *combi
 
 ## The Fano Plane: `STS(7)`
 
-The `STS(7)` is the most famous example, as it is not only a Steiner triple system, but also a *projective finite geometry* known as the *Fano plane* (and indeed, the smallest possible suchh projective geometry). You can see a depiction of it below, where the differently coloured lines (and the central circle) indicate the triples, which are:
+The `STS(7)` is the most famous example, as it is not only a Steiner triple system, but also a *projective finite geometry* known as the *Fano plane* (and indeed, the smallest possible such projective geometry). You can see a depiction of it below, where the differently coloured lines (and the central circle) indicate the triples, which are:
 
 * `012`
 
