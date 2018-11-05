@@ -68,7 +68,7 @@ Thus, we can only have the cases that `n = 1, 3, 5 (mod 6)`, but if `n = 6k+5` f
 
 which is not an integer, eliminating that case.
 
-The other two cases can be proven to be sufficient by constructions using *idempotent commutative quasigroups*, with the *Bose construction* giving us a `STS(6k+3)` for any `k ≥ 0`, and the *Skolem construction* giving us an `STS(6n+5)` for any `k ≥ 0`.
+The other two cases can be proven to be sufficient by constructions using *quasigroups* with additional properties, with the *Bose construction* giving us a `STS(6k+3)` for any `k ≥ 0`, and the *Skolem construction* giving us an `STS(6n+5)` for any `k ≥ 0`.
 
 ## Hill-Climbing Algorithm to produce `STS(n)`
 
