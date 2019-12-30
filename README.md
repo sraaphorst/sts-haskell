@@ -1,4 +1,4 @@
-# sts-haskell
+# Hill-Climbing to find Steiner Triple Systems in Haskell
 
 **Current status:** Complete.
 
