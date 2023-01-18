@@ -21,7 +21,3 @@ tests = TestList [TestLabel "testSTS7" testSTS7,
 
 main :: IO Counts
 main = runTestTT tests
-
-          
-
-                  
