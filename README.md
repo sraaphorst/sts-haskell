@@ -64,9 +64,9 @@ Thus, `n-1` must be even, implying that `n` is odd.
 
 Thus, we can only have the cases that `n = 1, 3, 5 (mod 6)`, but if `n = 6k+5` for some natural number `k`, then the number of blocks is:
 
-`n * (n-1)/6 = (6k+5)(6k+4)/6 = (36k^2 + 54k + 20)/6`
+`n * (n-1)/6 = (6k+5)(6k+4)/6 = (36k^2 + 54k + 20)/6 = (6(6k^2 + 9) + 20)/6 = 6k^2 + 9 + 20/6`
 
-which is not an integer, eliminating that case.
+which is not an integer since `6 ∤ 20`, eliminating that case.
 
 The other two cases can be proven to be sufficient by constructions using *quasigroups* with additional properties, with the *Bose construction* giving us a `STS(6k+3)` for any `k ≥ 0`, and the *Skolem construction* giving us an `STS(6k+1)` for any `k ≥ 0`.
 
